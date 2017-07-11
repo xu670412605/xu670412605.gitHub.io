@@ -1,0 +1,33 @@
+﻿/*common.css*/
+/*样式重置*/
+body,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,ul,ol,li {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+img {
+    vertical-align: bottom;
+    border: none;
+}
+ul {list-style: none;}
+a,a:hover {text-decoration: none;}
+a:focus {outline: none;}
+input {outline: none;}
+.lf {float: left;}
+.rf {float: right;}
+.clear:after{content:'';display:table;clear:both;}
+.hidefocus {    /*  a, input, button标签的虚线框    */
+    outline: none;
+}
+.contain_fluid {
+    width: 100%;
+    min-width: 1200px;
+}
+.content_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*样式重置 END*/
